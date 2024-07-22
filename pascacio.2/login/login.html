@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <section class="form-register">
+        <h4>Formulario Registro</h4>
+        <form id="registerForm" method="post">
+            <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre" required>
+            <input class="controls" type="text" name="user_name" id="user_name" placeholder="¿Cómo te quieres llamar?" required>
+            <div id="persona_confianza_container">
+                <input class="controls" type="text" id="persona_confianza" placeholder="¿Cuál es tu persona de confianza?" onclick="showDropdown()" required>
+            </div>
+            <input class="controls" type="text" name="colegio" id="colegio" placeholder="¿Cómo se llama tu colegio?" required>
+            <input type="hidden" name="latitud" id="latitud">
+            <input type="hidden" name="longitud" id="longitud">
+            <input class="botons" type="submit" value="Registrar" id="geolocateBtn">
+        </form>
+        <p id="location"></p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

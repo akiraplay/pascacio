@@ -1,0 +1,209 @@
+body{
+    background: -webkit-linear-gradient(90deg, #59bdbd,#70e0e1);background: linear-gradient(90deg, #59bdbd,#70e0e1);
+}
+
+
+
+/*mapa*/
+.contenedor {
+    background-color: none;
+    width: 750px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Propiedades para centrar en la página */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: none;
+}
+.contenedor img {
+    width: 600px;
+    height: 500px;
+}
+
+/*div de los iconos*/
+.iconos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: none;
+    width: 750px;
+    height: 600px;
+}
+
+
+
+/*icono del avatar*/
+/*icono del avatar*/
+.avatar{
+    height: 80px;
+    width: 80px;
+    background-color: #E5E0E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(30%, -180%);
+    border-radius: 200px 200px 200px 0px;
+    position: relative;
+    z-index: 1;
+}
+.ava{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 50px;
+    z-index: 2;
+}
+
+/*icono de la seccion indigenas*/
+.indigena{
+    height: 80px;
+    width: 80px;
+    background-color: #E5E0E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-100%, 160%);
+    border-radius: 200px 0px 200px 200px;
+    position: relative;
+    z-index: 1;
+}
+.ind{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 50px;
+    z-index: 2;
+}
+
+
+
+
+
+/*icono de la seccion del bonus*/
+
+.bonus{
+    height: 80px;
+    width: 80px;
+    background-color: #E5E0E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(80%, 370%);
+    border-radius: 200px 0px 200px 200px;
+    position: relative; /* ensures the container is positioned relative */
+    z-index: 1; /* ensures the .i element is above other elements */
+}
+.bon{
+    position: absolute; /* keeps the dragon absolutely positioned */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 50px;
+    z-index: 2; /
+}
+
+/*icono de la seccion del campesino*/
+.campesino{
+    height: 80px;
+    width: 80px;
+    background-color: #E5E0E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(10%, -140%);
+    border-radius: 200px 200px 200px 0px;
+    position: relative; /* ensures the container is positioned relative */
+    z-index: 1; /* ensures the .i element is above other elements */
+}
+.cam{
+    position: absolute; /* keeps the dragon absolutely positioned */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 50px;
+    z-index: 2; /
+}
+
+/* icono de la seccion afro*/
+.afro{
+    height: 80px;
+    width: 80px;
+    background-color: #E5E0E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(230%, -80%);
+    border-radius: 0px 200px 200px 200px;
+    position: relative; /* ensures the container is positioned relative */
+    z-index: 1; /* ensures the .i element is above other elements */
+}
+.afr{
+    position: absolute; /* keeps the dragon absolutely positioned */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 50px;
+    z-index: 2; /
+}
+
+.escucha{
+    height: 80px;
+    width: 80px;
+    background-color: #E5E0E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(200%, -380%);
+    border-radius: 200px 200px 200px 0px;
+    position: relative; 
+    z-index: 1; 
+}
+.esc{
+    position: absolute; /* keeps the dragon absolutely positioned */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 50px;
+    z-index: 2; /
+}
+
+
+.minero {
+    height: 80px;
+    width: 80px;
+    background-color: #E5E0E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, 200%);
+    border-radius: 0px 200px 200px 200px;
+    position: relative; 
+    z-index: 1; 
+}
+
+.min {
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 50px;
+    z-index: 2;
+}

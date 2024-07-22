@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pascacio</title>
+    <link rel="stylesheet" href="/escucha/escucha.css">
+    <link rel="shortcut icon" href="/icons/logo_gobernacion.png" type="image/png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header class="encabezado">
+        <a href="/mapa/mapa.html"><span class="material-symbols-outlined">
+            home
+        </span></a>
+    </header>
+
+    <!-- Contenedor principal para centrar el contenido -->
+    <div class="main-container">
+        <!--tarjeta de escucha-->
+        <section class="tarjeta">
+            <!--imagen-->
+            <div class="contenedor">
+                <img src="/escucha/falla.png" alt="">
+            </div>
+
+            <div class="container">
+                <div class="escuchame">
+                    <input class="controls" type="text" name="nombre_usuario" placeholder="¿Necesitas ayuda?" required>
+                </div>
+                <!--iconos de microfono y camara-->
+                <div class="microfono">
+                    <button id="recordButton"><span class="material-symbols-outlined">
+                        mic
+                    </span></button>
+                    <button id="stopButton" disabled><span class="material-symbols-outlined">
+                        stop
+                    </span></button>
+                    <button id="cameraButton"><span class="material-symbols-outlined">
+                        photo_camera
+                    </span></button>
+                    <button id="takePhotoButton" style="display: none;"><span class="material-symbols-outlined">
+                        camera
+                    </span></button>
+                    <video id="video" style="display: none;"></video>
+                    <canvas id="canvas" style="display: none;"></canvas>
+                    <audio id="audioPlayback" controls style="display: none;"></audio>
+                </div>
+            </div>
+
+            <div class="enviar">
+                <button class="boton_enviar" id="sendButton">
+                    Enviar
+                </button>
+            </div>
+        </section>
+    </div>
+
+    <script src="/escucha/escucha.js"></script>
+</body>
+</html>
